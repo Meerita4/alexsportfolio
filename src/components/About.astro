@@ -1,0 +1,367 @@
+---
+
+---
+
+<section id="sobre-mi" class="about section">
+	<div class="container">
+		<div class="about-content">
+			<div class="about-text">
+				<h2 class="section-title">Sobre Mí</h2>
+				<div class="about-description">
+					<p>
+						Soy un desarrollador FullStack apasionado por la tecnología y la creación de soluciones digitales innovadoras. 
+						Con experiencia en el desarrollo tanto frontend como backend, me especializo en crear aplicaciones web modernas, 
+						escalables y centradas en el usuario.
+					</p>
+					<p>
+						Mi enfoque se basa en escribir código limpio, seguir las mejores prácticas y mantenerme actualizado 
+						con las últimas tendencias tecnológicas. Disfruto trabajando en equipo y enfrentando nuevos desafíos 
+						que me permitan crecer profesionalmente.
+					</p>
+				</div>
+				
+				
+			</div>
+			
+			<div class="skills-container">
+				<h3>Tecnologías y Herramientas</h3>
+				<div class="skills-grid">
+					<div class="skill-category">
+						<h4>Frontend</h4>
+						<div class="skills-list">
+							<span class="skill-tag">JavaScript</span>
+							<span class="skill-tag">TypeScript</span>
+							<span class="skill-tag">React</span>
+							<span class="skill-tag">Astro</span>
+							<span class="skill-tag">HTML5</span>
+							<span class="skill-tag">CSS3</span>
+	
+						</div>
+					</div>
+					
+					<div class="skill-category">
+						<h4>Backend</h4>
+						<div class="skills-list">
+							<span class="skill-tag">Node.js</span>
+							<span class="skill-tag">Python</span>
+							<span class="skill-tag">Java</span>
+							<span class="skill-tag">Dart</span>
+							<span class="skill-tag">C++</span>
+							<span class="skill-tag">QT</span>
+							<span class="skill-tag">C#</span>
+							<span class="skill-tag">PostgreSQL</span>
+							<span class="skill-tag">MongoDB</span>
+							
+						</div>
+					</div>
+					
+					<div class="skill-category">
+						<h4>Herramientas</h4>
+						<div class="skills-list">
+							<span class="skill-tag">Git</span>
+							<span class="skill-tag">GitHub</span>
+							<span class="skill-tag">VS Code</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="experience-timeline">
+			<h3>Experiencia</h3>
+			<div class="timeline">
+				<div class="timeline-item">
+					<div class="timeline-dot"></div>
+					<div class="timeline-content">
+						<div class="timeline-date">2022 - Presente</div>
+						<h4>Desarrollador Full Stack Freelance</h4>
+						<p>
+							Desarrollo de aplicaciones web personalizadas para diversos clientes, 
+							desde startups hasta empresas establecidas. Especialización en 
+							tecnologías modernas y metodologías ágiles.
+						</p>
+					</div>
+				</div>
+				
+				<div class="timeline-item">
+					<div class="timeline-dot"></div>
+					<div class="timeline-content">
+						<div class="timeline-date">2021 - 2022</div>
+						<h4>Desarrollador Frontend</h4>
+						<p>
+							Creación de interfaces de usuario intuitivas y responsivas, 
+							colaboración estrecha con equipos de diseño y backend para 
+							entregar productos de alta calidad.
+						</p>
+					</div>
+				</div>
+				
+				<div class="timeline-item">
+					<div class="timeline-dot"></div>
+					<div class="timeline-content">
+						<div class="timeline-date">2020 - 2021</div>
+						<h4>Desarrollador Junior</h4>
+						<p>
+							Inicio en el desarrollo web profesional, aprendizaje de 
+							mejores prácticas y participación en proyectos de equipo.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<style>
+	.about {
+		background: var(--color-bg-secondary);
+	}
+
+	.section-title {
+		text-align: center;
+		margin-bottom: var(--space-3xl);
+		position: relative;
+	}
+
+	.section-title::after {
+		content: '';
+		position: absolute;
+		bottom: -10px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 60px;
+		height: 4px;
+		background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+		border-radius: 2px;
+	}
+
+	.about-content {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: var(--space-3xl);
+		margin-bottom: var(--space-3xl);
+	}
+
+	.about-description p {
+		font-size: 1.125rem;
+		line-height: 1.7;
+		margin-bottom: var(--space-lg);
+	}
+
+	.stats {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: var(--space-lg);
+		margin-top: var(--space-xl);
+	}
+
+	.stat-item {
+		text-align: center;
+		padding: var(--space-lg);
+		background: white;
+		border-radius: var(--radius-lg);
+		box-shadow: var(--shadow-sm);
+		transition: all var(--transition-fast);
+	}
+
+	.stat-item:hover {
+		transform: translateY(-5px);
+		box-shadow: var(--shadow-md);
+	}
+
+	.stat-number {
+		font-size: 2.5rem;
+		font-weight: 700;
+		color: var(--color-primary);
+		margin-bottom: var(--space-sm);
+	}
+
+	.stat-label {
+		color: var(--color-text-secondary);
+		font-size: 0.9rem;
+		font-weight: 500;
+	}
+
+	.skills-container h3 {
+		margin-bottom: var(--space-xl);
+		color: var(--color-text-primary);
+	}
+
+	.skills-grid {
+		display: grid;
+		gap: var(--space-lg);
+	}
+
+	.skill-category {
+		background: white;
+		padding: var(--space-lg);
+		border-radius: var(--radius-lg);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.skill-category h4 {
+		color: var(--color-primary);
+		margin-bottom: var(--space-md);
+		font-size: 1.125rem;
+	}
+
+	.skills-list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: var(--space-sm);
+	}
+
+	.skill-tag {
+		background: var(--color-bg-tertiary);
+		color: var(--color-text-primary);
+		padding: var(--space-xs) var(--space-sm);
+		border-radius: var(--radius-sm);
+		font-size: 0.875rem;
+		font-weight: 500;
+		transition: all var(--transition-fast);
+	}
+
+	.skill-tag:hover {
+		background: var(--color-primary);
+		color: white;
+		transform: translateY(-2px);
+	}
+
+	.experience-timeline {
+		margin-top: var(--space-3xl);
+	}
+
+	.experience-timeline h3 {
+		text-align: center;
+		margin-bottom: var(--space-xl);
+		color: var(--color-text-primary);
+	}
+
+	.timeline {
+		position: relative;
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	.timeline::before {
+		content: '';
+		position: absolute;
+		left: 50%;
+		top: 0;
+		bottom: 0;
+		width: 2px;
+		background: var(--color-primary);
+		transform: translateX(-50%);
+	}
+
+	.timeline-item {
+		position: relative;
+		margin-bottom: var(--space-xl);
+		width: 50%;
+	}
+
+	.timeline-item:nth-child(odd) {
+		left: 0;
+		padding-right: var(--space-xl);
+		text-align: right;
+	}
+
+	.timeline-item:nth-child(even) {
+		left: 50%;
+		padding-left: var(--space-xl);
+	}
+
+	.timeline-dot {
+		position: absolute;
+		top: 20px;
+		width: 16px;
+		height: 16px;
+		background: var(--color-primary);
+		border-radius: 50%;
+		border: 3px solid white;
+		box-shadow: var(--shadow-md);
+	}
+
+	.timeline-item:nth-child(odd) .timeline-dot {
+		right: -8px;
+	}
+
+	.timeline-item:nth-child(even) .timeline-dot {
+		left: -8px;
+	}
+
+	.timeline-content {
+		background: white;
+		padding: var(--space-lg);
+		border-radius: var(--radius-lg);
+		box-shadow: var(--shadow-sm);
+		transition: all var(--transition-fast);
+	}
+
+	.timeline-content:hover {
+		transform: translateY(-5px);
+		box-shadow: var(--shadow-md);
+	}
+
+	.timeline-date {
+		color: var(--color-primary);
+		font-weight: 600;
+		font-size: 0.875rem;
+		margin-bottom: var(--space-sm);
+	}
+
+	.timeline-content h4 {
+		color: var(--color-text-primary);
+		margin-bottom: var(--space-sm);
+	}
+
+	.timeline-content p {
+		color: var(--color-text-secondary);
+		font-size: 0.9rem;
+		margin: 0;
+	}
+
+	/* Responsive */
+	@media (max-width: 768px) {
+		.about-content {
+			grid-template-columns: 1fr;
+			gap: var(--space-2xl);
+		}
+
+		.stats {
+			grid-template-columns: 1fr;
+			gap: var(--space-md);
+		}
+
+		.timeline::before {
+			left: 20px;
+		}
+
+		.timeline-item {
+			width: 100%;
+			left: 0 !important;
+			padding-left: var(--space-2xl) !important;
+			padding-right: 0 !important;
+			text-align: left !important;
+		}
+
+		.timeline-dot {
+			left: 12px !important;
+			right: auto !important;
+		}
+
+		.skills-grid {
+			gap: var(--space-md);
+		}
+	}
+
+	@media (max-width: 480px) {
+		.stat-number {
+			font-size: 2rem;
+		}
+
+		.skill-tag {
+			font-size: 0.8rem;
+		}
+	}
+</style>
