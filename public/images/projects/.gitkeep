@@ -1,0 +1,22 @@
+# Carpeta para imágenes de proyectos
+
+## Instrucciones para agregar imágenes:
+
+### Tamaños recomendados:
+- **Ancho:** 600-800px
+- **Alto:** 400-500px  
+- **Ratio:** 16:10 o 4:3
+- **Formato:** JPG, PNG o WebP
+- **Peso:** < 500KB (optimizado)
+
+### Nombres de archivo:
+- `medicontrol.jpg` - Captura de pantalla de MediControl
+- `dashboard-analytics.jpg` - Captura del dashboard
+- `task-management.jpg` - Captura de la app de tareas
+- `portfolio.jpg` - Captura de tu portfolio
+
+### Tips de optimización:
+1. Usa herramientas como TinyPNG para comprimir
+2. Asegúrate de que se vean bien en dispositivos móviles
+3. Usa capturas de pantalla reales de tus proyectos
+4. Si no tienes capturas, usa mockups profesionales
